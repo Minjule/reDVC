@@ -1,0 +1,10 @@
+conda 23.7.4
+
+conda create --name DVC
+conda activate DVC
+conda update -n base -c defaults conda
+
+Installed DVC extension
+
+pip install dvc
+dvc init --no-scm  

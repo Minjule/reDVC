@@ -1,0 +1,21 @@
+cmd: python src/featurization.py data/prepared data/features
+deps:
+- path: data/prepared
+  hash: md5
+  md5: c7333f9e0b69161b834e9b4917e4bd9b.dir
+  size: 8447363
+  nfiles: 2
+- path: src/featurization.py
+  hash: md5
+  md5: 540ae2dde0962e1159e2742479401cae
+  size: 2570
+params:
+  params.yaml:
+    featurize.max_features: 200
+    featurize.ngrams: 2
+outs:
+- path: data/features
+  hash: md5
+  md5: f35d4cc2c552ac959ae602162b8543f3.dir
+  size: 2232588
+  nfiles: 2

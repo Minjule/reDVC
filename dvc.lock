@@ -58,10 +58,10 @@ stages:
     params:
       params.yaml:
         train.min_split: 0.01
-        train.n_est: 50
+        train.n_est: 100
         train.seed: 20170428
     outs:
     - path: model.pkl
       hash: md5
-      md5: 280e4fc584b996c9919484fb4595ce3d
-      size: 1957897
+      md5: 4bba4e016b0d14dbf45550b05f35a7e5
+      size: 3933672
